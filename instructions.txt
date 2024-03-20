@@ -1,0 +1,79 @@
+Le but est de créer une petite application Web "demo" de gestion d'utilisateurs. 
+L'application est composée d'une API de recherche d'utilisateurs couplée à une
+ interface Web pour la consultation.
+
+ 
+
+1) Back :
+
+• créer une API qui permet de lister des utilisateurs répondant à des critères donnés. 
+Voici des exemples de recherches que l’on peut faire avec l’API :
+
+  - lister les utilisateurs qui habitent dans une ville donnée
+
+  - lister les utilisateurs dont l’âge est compris entre 18 et 25 ans
+
+  - lister les femmes âgées de 30 ans et qui habitent dans une ville donnée
+
+• une fois la liste récupérée, on doit pouvoir récupérer le détail d’un utilisateur
+
+• utiliser une DB de type sqlite3 (celle par défaut lors de la création d’un projet Django)
+
+• utiliser la librairie Django Rest Framework pour la création d’API
+
+• utiliser le modèle utilisateur fourni de base par Django
+
+• chaque utilisateur doit avoir un "profile" (relation 1 / 1 avec le modèle utilisateur).
+ Ce modèle "profile" comporte les champs suivants :
+
+  - Hometown
+
+  - Age
+
+  - Gender (Female or Male)
+
+ 
+
+2) Front :
+
+• le module doit comporter 3 fonctionnalités :
+
+  - recherche d'utilisateurs selon un ou plusieurs critères
+
+  - affichage de la liste résultat
+
+  - consultation du détail d'un utilisateur
+
+• utiliser le framework « React JS »
+
+ 
+
+D'une manière générale, le code devra être écrit comme si les modules étaient 
+destinés à être intégrés dans une véritable application. Vous pouvez bien entendu utiliser
+ des librairies externes dans votre implémentation.
+
+ 
+
+Notre attention se portera particulièrement sur :
+
+* la clarté de l'interface produite
+
+* la simplicité d'utilisation de ses fonctionnalités
+
+* la structure choisie pour l'API
+
+* la lisibilité et l'organisation du code associé
+
+ 
+
+L'idée est de passer le temps que vous voulez/pouvez pour réaliser le test, 
+dans la limite d'une journée de travail au maximum.
+
+Le cadre est ouvert : n'hésitez pas à faire des choix en fonction du temps 
+dont vous disposez, ou bien à l'inverse à ajouter des fonctionnalités ou des 
+éléments que vous jugerez utiles.
+
+ 
+
+Une fois terminé, le développement pourra être mis sur GitHub ou GitLab pour 
+que nous puissions en prendre connaissance.
